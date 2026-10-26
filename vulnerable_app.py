@@ -1,7 +1,7 @@
 import sqlite3
 
 # FAKE AWS KEY (Our Secret Scanning tool should catch this later)
-AWS_ACCESS_KEY_ID = "AKIAIOSFODNN7EXAMPLE" 
+AWS_ACCESS_KEY_ID = "AKIA5HTUX2R4B5JW7C9Y"
 
 def get_user_data(username):
     conn = sqlite3.connect('database.db')
