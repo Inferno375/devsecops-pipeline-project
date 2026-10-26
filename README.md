@@ -33,3 +33,5 @@ Building this pipeline highlighted the critical distinction between different au
 
 ---
 *Created by Raphael Rodricks S J*
+
+<img width="1007" height="396" alt="Screenshot 2026-10-26 235256" src="https://github.com/user-attachments/assets/b8d0bbcc-b9e3-42e5-a6c5-0b11f4fa9061" />
