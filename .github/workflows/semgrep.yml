@@ -1,0 +1,19 @@
+name: Semgrep SAST Scan
+
+# This tells GitHub to run the scan every time you push code
+on: [push] 
+
+jobs:
+  semgrep:
+    name: Run SAST Scanner
+    runs-on: ubuntu-latest
+    steps:
+      # Step 1: GitHub downloads your code onto their server
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      # Step 2: GitHub runs the Semgrep security tool on your code
+      - name: Run Semgrep
+        uses: returntocorp/semgrep-action@v1
+        with:
+          config: "p/default"
